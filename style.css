@@ -1,0 +1,47 @@
+/* Custom Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+/* Carousel */
+.carousel-inner img {
+    height: 700px;
+    object-fit: cover;
+}
+
+/* Movie Listings */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ff4c4c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e60000;
+}
+
+.btn-secondary {
+    background-color: #4c76ff;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #0033cc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-inner img {
+        height: 250px;
+    }
+}
